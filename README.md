@@ -1,18 +1,18 @@
 # Work Day Scheduler
-* A simple, user-friendly planner is created
-* This planner allows the user to save events each day and for every hour
+This is a simple daily planner that is created for the user to plan and save events by the hour
 
 ## Summary
 HTML, CSS, Momentjs, and Javascript was used to create a quiz
 
 ### How It Works
-* When the user opens the planner, a blank schedule will be shown
+* When the user opens the planner:
+  * A blank schedule will be shown
 * The user will see the current date and time based on when the page was accessed
-* The planner is divided by the hour
+  * The planner is divided by the hour
 * There will be three color codes:
-* Previous hours that has passed will be grey
-* Current hour will be teal
-* Future hours will be soft blue
+  * Previous hours that has passed will be grey
+  * Current hour will be soft pink
+  * Future hours will be soft purple
 * When the user clicks on each timeblock, they will be allowed to type in an event
 * The user can save their event
 * When the user refreshes their page, their event will still be saved
@@ -30,11 +30,10 @@ HTML, CSS, Momentjs, and Javascript was used to create a quiz
 
 ### Built With
 * HTML - View "index.html"
-* Creates a title, shows the Reset button, shows the set of instructions, shows the Save buttons, different rows of hours and text boxes, etc.
+* Creates a title, displays the Reset button, displays the set of instructions, displays the Save buttons, displays the different rows of hours and text boxes, etc.
 
 * CSS - View "style.css"
-* 
-* 
+* Styles the body and text, adds color to the hours, rows and save button, adds color to the borders.
 
 * Javascript - View "script.js"
 * 
