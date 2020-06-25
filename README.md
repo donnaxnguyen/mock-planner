@@ -13,8 +13,8 @@ HTML, CSS, Momentjs, and Javascript was used to create a quiz
 * The planner is divided by the hour
 * There will be three color codes
 > Previous hours that has passed will be grey
-> Current hour will be teal
-> Future hours will be soft blue
+> * Current hour will be teal
+> * Future hours will be soft blue
 * When the user clicks on each timeblock, they will be allowed to type in an event
 * The user can save their event
 * When the user refreshes their page, their event will still be saved
