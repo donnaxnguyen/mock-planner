@@ -11,10 +11,10 @@ HTML, CSS, Momentjs, and Javascript was used to create a quiz
 * When the user opens the planner, a blank schedule will be given
 * The user will see the current date and time based on when the page was accessed
 * The planner is divided by the hour
-* There will be three color codes
-> Previous hours that has passed will be grey
-> * Current hour will be teal
-> * Future hours will be soft blue
+* There will be three color codes:
+* Previous hours that has passed will be grey
+* Current hour will be teal
+* Future hours will be soft blue
 * When the user clicks on each timeblock, they will be allowed to type in an event
 * The user can save their event
 * When the user refreshes their page, their event will still be saved
@@ -44,15 +44,27 @@ HTML, CSS, Momentjs, and Javascript was used to create a quiz
 * 
 
 ### Sources Used
-* 
-* 
-* 
-* 
-* 
+* Bootstrap
+* [https://getbootstrap.com/](#)
+* Fontawesome
+* [https://fontawesome.com/](#)
+* Momentjs
+* [https://momentjs.com/](#)
+* W3 Schools: Source for Jumbotron
+* [https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp](#)
+* W3 Schools: Source for colors
+* [https://www.w3schools.com/colors/colors_picker.asp](#)
+* Bootstrap: Source for buttons
+* [https://getbootstrap.com/docs/4.0/components/buttons/#outline-buttons](#)
+* W3 Schools: Source for inputs
+* [https://www.w3schools.com/bootstrap4/bootstrap_forms_input_group.asp](#)
+* Fontawesome: Cloud Upload Alt Icon
+* [https://fontawesome.com/v5.8.1/icons/cloud-upload-alt](#)
 
 ## Deployed Link
 * 
 * 
+
 
 
 ## Authors

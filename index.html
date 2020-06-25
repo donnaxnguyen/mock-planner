@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- this was pulled from our class slack channel -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+<!-- this is my title -->
+    <title>Schedule Planner</title>
+  </head>
+
+<!-- this is the start of my body-->
+<!-- this is my header and some text (see w3 jumbotron source in readme) -->
+  <body>
+    <header class="jumbotron">
+      <h1 style = "color: #66b8ff">Daily Schedule Planner</h1>
+      <p> An hourly planner for your daily tasks</p>
+        <p>Type in your to-dos, errands, nap times, etc. </p>
+            <p>Then click save!</p>
+<!-- this pulls my var currentDay (see script.js) -->
+      <p id="currentDay" class="lead"></p>
+<!-- this is my reset button (see w3 button source in readme) -->
+      <button type="button" class="btn btn-outline-success" id="clearDay">Reset</button>
+    </header>
+
+    <div class="container">
+<!-- this is to adds a row and gives a text area, this is going to be repeated for every given hour -->
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">07:00 am </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="7am"></textarea>
+<!-- see read me fontawesome source to see where i pulled this button class -->
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+    
+
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">08:00 am</span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="8am"></textarea>
+    
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+
+        
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">09:00 am </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="9am"></textarea>
+    
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">10:00 am </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="10am"></textarea>
+   
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">11:00 am </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="11am"></textarea>
+    
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">12:00 pm </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="12pm"></textarea>
+    
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">01:00 pm </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="13pm"></textarea>
+     
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">02:00 pm </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="14pm"></textarea>
+    
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">03:00 pm </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="15pm"></textarea>
+    
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">04:00 pm </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="16pm"></textarea>
+    
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">05:00 pm </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="17pm"></textarea>
+    
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">06:00 pm </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="18pm"></textarea>
+    
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text hour">07:00 pm </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea" id="19pm"></textarea>
+    
+    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
+    </div>
+    </div>
+</div>
+</body>
+</html>
