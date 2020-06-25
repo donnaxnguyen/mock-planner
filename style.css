@@ -1,17 +1,22 @@
+/* css for my body and text area. 
+body includes font family, font size, and line height
+text area includes background color etc */
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    text-align: center;
   }
   
-  textarea{
-    background-color: #ebebeb;
+textarea {
+    background-color: #ffffff;
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
     padding: 10px;
     width: 920px;
+    text-align: center;
   }
   
   /* css for my jumbotron. text is in the center and i gave a border */
@@ -20,5 +25,28 @@ body {
     background-color: transparent;
     border-radius: 0;
     border-bottom: 3px solid #66b8ff;
+  }
+
+  /* this is to wrap my text, see w3 whitespace source in readme to see how i grabbed this */
+  .description {
+    white-space: pre-wrap;
+  }
+
+  /* this is to wrap my rows */
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+  
+  /* this is the specs for my hours */
+  .hour {
+    background-color: #66b8ff;
+    color: #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
   }
   

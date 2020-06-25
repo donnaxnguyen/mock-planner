@@ -2,13 +2,11 @@
 * A simple, user-friendly planner is created
 * This planner allows the user to save events each day and for every hour
 
-
 ## Summary
-
 HTML, CSS, Momentjs, and Javascript was used to create a quiz
 
 ### How It Works
-* When the user opens the planner, a blank schedule will be given
+* When the user opens the planner, a blank schedule will be shown
 * The user will see the current date and time based on when the page was accessed
 * The planner is divided by the hour
 * There will be three color codes:
@@ -25,15 +23,14 @@ HTML, CSS, Momentjs, and Javascript was used to create a quiz
 * Title
 * The date by month, day, and year
 * A digital clock by hours, minutes, and seconds
-* 1-hour intervals starting from 7:00 AM - 7:00 PM
+* 1-hour intervals starting from 9:00am - 5:00pm
 * Box for each hour, so the user can type their events in
 * Save button for each hour, so the user can save their events
 * "Clear" button, so the user can reset ther planner
 
 ### Built With
 * HTML - View "index.html"
-* 
-* 
+* Creates a title, shows the Reset button, shows the set of instructions, shows the Save buttons, different rows of hours and text boxes, etc.
 
 * CSS - View "style.css"
 * 
@@ -60,6 +57,9 @@ HTML, CSS, Momentjs, and Javascript was used to create a quiz
 * [https://www.w3schools.com/bootstrap4/bootstrap_forms_input_group.asp](#)
 * Fontawesome: Cloud Upload Alt Icon
 * [https://fontawesome.com/v5.8.1/icons/cloud-upload-alt](#)
+* W3 Schools: White-Space Wrapping
+* [https://www.w3schools.com/cssref/pr_text_white-space.asp]](#)
+
 
 ## Deployed Link
 * 

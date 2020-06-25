@@ -30,30 +30,8 @@
 
     <div class="container">
 <!-- this is to adds a row and gives a text area, this is going to be repeated for every given hour -->
-    <div class="row">
-    <div class="input-group">
-    <div class="input-group-prepend">
-    <span class="input-group-text hour">07:00 am </span>
-    </div>
-    <textarea class="form-control" aria-label="With textarea" id="7am"></textarea>
-<!-- see read me fontawesome source to see where i pulled this button class -->
-    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
-    </div>
-    </div>
-    
-
-    <div class="row">
-    <div class="input-group">
-    <div class="input-group-prepend">
-    <span class="input-group-text hour">08:00 am</span>
-    </div>
-    <textarea class="form-control" aria-label="With textarea" id="8am"></textarea>
-    
-    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
-    </div>
-    </div>
-
-        
+<!-- see read me fontawesome source to see where i pulled this button class, this will also be repeated for every given hour -->
+<!-- i used hours 9am - 5pm, the same as the class repo example -->
     <div class="row">
     <div class="input-group">
     <div class="input-group-prepend">
@@ -152,28 +130,9 @@
     <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
     </div>
     </div>
-      
-    <div class="row">
-    <div class="input-group">
-    <div class="input-group-prepend">
-    <span class="input-group-text hour">06:00 pm </span>
-    </div>
-    <textarea class="form-control" aria-label="With textarea" id="18pm"></textarea>
-    
-    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
-    </div>
-    </div>
-      
-    <div class="row">
-    <div class="input-group">
-    <div class="input-group-prepend">
-    <span class="input-group-text hour">07:00 pm </span>
-    </div>
-    <textarea class="form-control" aria-label="With textarea" id="19pm"></textarea>
-    
-    <button type="button" class="saveBtn"><i class="fas fa-cloud-upload-alt"></i></button>
-    </div>
-    </div>
 </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="script.js"></script>
 </html>
