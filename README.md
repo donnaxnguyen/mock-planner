@@ -1,8 +1,8 @@
-# Work Day Scheduler
-This is a simple daily planner that is created for the user to plan and save events by the hour
+# Daily Schedule Planner
+This is a daily planner created for the user to plan and save events by the hour
 
 ## Summary
-HTML, CSS, Momentjs, and Javascript was used to create a quiz
+HTML, CSS, Momentjs, and Javascript was used to create this application
 
 ### How It Works
 * When the user opens the planner:
@@ -13,31 +13,33 @@ HTML, CSS, Momentjs, and Javascript was used to create a quiz
   * Previous hours that has passed will be grey
   * Current hour will be soft pink
   * Future hours will be soft purple
-* When the user clicks on each timeblock, they will be allowed to type in an event
-* The user can save their event
-* When the user refreshes their page, their event will still be saved
-* When the user is finished, they can also clear their day
+* When the user clicks on each timeblock
+  * They will be allowed to type in an event
+  * The user can save their event
+* When the user refreshes their page
+  * Their event will still be saved
+* When the user is finished
+  * They can "Reset" their planner
 
 
 ### What It Includes
 * Title
 * The date by month, day, and year
 * A digital clock by hours, minutes, and seconds
-* 1-hour intervals starting from 9:00am - 5:00pm
-* Box for each hour, so the user can type their events in
-* Save button for each hour, so the user can save their events
-* "Clear" button, so the user can reset ther planner
+* 1-hour intervals starting from 9:00 am - 5:00 pm
+* A box for each hour, so the user can type their events in
+* A save button for each hour, so the user can save their events
+* "Reset" button, so the user can clear ther planner
 
 ### Built With
 * HTML - View "index.html"
-* Creates a title, displays the Reset button, displays the set of instructions, displays the Save buttons, displays the different rows of hours and text boxes, etc.
+  * Creates a title, displays the Reset button, displays the set of instructions, displays the Save buttons, displays the different rows of hours and text boxes, etc.
 
 * CSS - View "style.css"
-* Styles the body and text, adds color to the hours, rows and save button, adds color to the borders.
+  * Styles the body and text, adds color to the hours, rows and save button, adds color to the borders. 
 
 * Javascript - View "script.js"
-* 
-* 
+  * 
 
 ### Sources Used
 * Bootstrap
@@ -60,10 +62,10 @@ HTML, CSS, Momentjs, and Javascript was used to create a quiz
 * [https://www.w3schools.com/cssref/pr_text_white-space.asp]](#)
 
 
-## Deployed Link
-* 
-* 
 
+
+## Deployed Link
+* [https://donnaxnguyen.github.io/planner-homework/](#)
 
 
 ## Authors
