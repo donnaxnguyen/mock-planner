@@ -43,24 +43,30 @@ HTML, CSS, Momentjs, and Javascript was used to create this application
 
 ### Sources Used
 * Bootstrap
-* [https://getbootstrap.com/](#)
+  * [https://getbootstrap.com/](#)
 * Fontawesome
-* [https://fontawesome.com/](#)
+  * [https://fontawesome.com/](#)
 * Momentjs
-* [https://momentjs.com/](#)
+  * [https://momentjs.com/](#)
 * W3 Schools: Source for Jumbotron
-* [https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp](#)
+  * [https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp](#)
 * W3 Schools: Source for colors
-* [https://www.w3schools.com/colors/colors_picker.asp](#)
+  * [https://www.w3schools.com/colors/colors_picker.asp](#)
 * Bootstrap: Source for buttons
-* [https://getbootstrap.com/docs/4.0/components/buttons/#outline-buttons](#)
+  * [https://getbootstrap.com/docs/4.0/components/buttons/#outline-buttons](#)
 * W3 Schools: Source for inputs
-* [https://www.w3schools.com/bootstrap4/bootstrap_forms_input_group.asp](#)
+  * [https://www.w3schools.com/bootstrap4/bootstrap_forms_input_group.asp](#)
 * Fontawesome: Cloud Upload Alt Icon
-* [https://fontawesome.com/v5.8.1/icons/cloud-upload-alt](#)
+  * [https://fontawesome.com/v5.8.1/icons/cloud-upload-alt](#)
 * W3 Schools: White-Space Wrapping
-* [https://www.w3schools.com/cssref/pr_text_white-space.asp]](#)
-
+  * [https://www.w3schools.com/cssref/pr_text_white-space.asp]](#)
+* W3 Schools: JSON parse()
+  * [https://www.w3schools.com/jsref/jsref_parse_json.asp](#)
+* Multiple Sources for parseInt() 
+  * [https://www.geeksforgeeks.org/javascript-parseint-with-examples/](#)
+  * [https://www.w3schools.com/jsref/jsref_parseint.asp](#)
+* Stackoverflow: Using Jquery for Siblings: 
+  * [https://stackoverflow.com/questions/5037854/use-jquery-to-get-siblings](#)
 
 
 
